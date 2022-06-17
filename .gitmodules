@@ -10,3 +10,6 @@
 [submodule "users-service"]
 	path = users-service
 	url = https://github.com/WebCrew-Funda/users-service
+[submodule "payments-service"]
+	path = payments-service
+	url = https://github.com/WebCrew-Funda/payments-service
