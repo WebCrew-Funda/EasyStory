@@ -13,3 +13,6 @@
 [submodule "payments-service"]
 	path = payments-service
 	url = https://github.com/WebCrew-Funda/payments-service
+[submodule "easystory-registry"]
+	path = easystory-registry
+	url = https://github.com/WebCrew-Funda/easystory-registry
