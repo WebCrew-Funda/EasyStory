@@ -1,0 +1,54 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-UsersServiceApplication<users-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.webcrew.easystory.usersservice.UsersServiceApplication",
+      "projectName": "users-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-Application<pe.edu.upc>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "fundamentosBackendTF.pe.edu.upc.Application",
+      "projectName": "pe.edu.upc",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-GatewayServiceApplication<gateway-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.webcrew.gatewayservice.GatewayServiceApplication",
+      "projectName": "gateway-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-EasystoryRegistryApplication<easystory-registry>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.webcrew.easystoryregistry.EasystoryRegistryApplication",
+      "projectName": "easystory-registry",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ConfigServiceApplication<config-service>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.webcrew.configservice.configservice.ConfigServiceApplication",
+      "projectName": "config-service",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
